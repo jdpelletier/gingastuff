@@ -1,2 +1,2 @@
 # gingastuff
-Stuff for ginga
+Plugins for Ginga
