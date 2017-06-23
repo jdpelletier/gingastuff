@@ -8,7 +8,7 @@ files = np.sum([1 for hdu in hdulist if type(hdu) in
                   [fits.hdu.image.PrimaryHDU, fits.hdu.image.ImageHDU]
                   and hdu.data is not None])
 k = 0
-j = 0
+
 
 
 ###Sorting Images###
