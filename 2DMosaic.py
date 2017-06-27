@@ -30,8 +30,7 @@ for i in range(1, files+1):
 	yhigh = ''.join(df[ncpos+1:nepos])
 	yhigh = int(yhigh)
 	imagesort[i-1][2] = yflow + yhigh
-	ccd = hdulist[i].header['CCDLOC']
-	ccd = int(ccd)
+	ccd = hdulist[i].header['CCDNAME']
 	imagesort[i-1][3] = ccd
 
 sortedim = sorted(imagesort, key=lambda x: x[1])
