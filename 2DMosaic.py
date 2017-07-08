@@ -131,7 +131,7 @@ else:
 		drhigh = int(drhigh)
 		imdata = sortedim[i-1][0].data[:, drlow:drhigh]
 		gapxdim = np.size(imdata, 0)
-		gapx = np.zeros((gapxdim, 100))
+		gapx = np.zeros((gapxdim, 30))
 		gapx[:,:] = np.nan
 		#image flips#
 		df = sortedim[i-1][0].header['DETSEC']
