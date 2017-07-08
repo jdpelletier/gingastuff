@@ -18,14 +18,11 @@ class KeckMosaic(GingaPlugin.LocalPlugin):
     =========
     Plugin Type: Local
     ------------------
-    TVMask is a local plugin, which means it is associated with a
-    channel.  An instance can be opened for each channel.
+    Pending.
 
     Usage
     -----
-    This plugin adds cartoon bars with expected positions over
-    and image of the MOSFIRE CSU.  Click overlay to load your
-    position file and have it overlay your image.
+    Pending.
     """
 
     def __init__(self, fv, fitsimage):
