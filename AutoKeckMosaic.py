@@ -309,7 +309,6 @@ class AutoKeckMosaic(GingaPlugin.LocalPlugin):
                 if hasNewFiles:
 		    print("New File Detected!")
 		    filen = files[0]
-		    print(filen)
 		    time.sleep(10)
 		    self.multimos(filename=filen)
                 time.sleep(1)
