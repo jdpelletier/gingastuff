@@ -347,8 +347,7 @@ class AutoKeckMosaic(GingaPlugin.LocalPlugin):
         return locked
 
     
-    #    Checks if the files are ready.
-    #    For a file to be ready it must exist and can be opened in append mode.
+    #    Checks if the files are ready
    
     def waitForFileToBeUnlocked(self, filename, wait_time):
         # if the file doesn't exist, wait wait_time seconds and try again until it's found
