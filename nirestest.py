@@ -1,6 +1,4 @@
-#TODO figure out better tranform to real coordinates (besides box corner)
-#     see if i have to add 1's to things
-#     improve on post find_bright_peaks (evaluate_peaks...)
+#in process
 """
 Draft of NIRES plugin. Still in development
 """
